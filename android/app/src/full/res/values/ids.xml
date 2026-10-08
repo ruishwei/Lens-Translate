@@ -1,0 +1,22 @@
+<resources>
+  <item name="selection_source" type="id" />
+  <item name="selection_target" type="id" />
+  <item name="translation_status" type="id" />
+  <item name="replace_selection" type="id" />
+  <item name="input_shortcut" type="id" />
+  <item name="input_original" type="id" />
+  <item name="input_translation" type="id" />
+  <item name="input_status" type="id" />
+  <item name="input_target" type="id" />
+  <item name="input_replace" type="id" />
+  <item name="keyboard_target" type="id" />
+  <item name="keyboard_translate" type="id" />
+  <item name="keyboard_undo" type="id" />
+  <item name="keyboard_status" type="id" />
+  <item name="keyboard_composition" type="id" />
+  <item name="keyboard_mode" type="id" />
+  <item name="keyboard_space" type="id" />
+  <item name="keyboard_enter" type="id" />
+  <item name="keyboard_layout" type="id" />
+  <item name="keyboard_prediction" type="id" />
+</resources>

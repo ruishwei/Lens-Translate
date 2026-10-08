@@ -1,0 +1,5 @@
+Unmodified Rime simplified Pinyin dictionary (derived from Android Pinyin IME).
+Repository: https://github.com/rime/rime-pinyin-simp
+Revision: 0c6861ef7420ee780270ca6d993d18d4101049d0
+License: Apache-2.0; see LICENSE and AUTHORS.
+Lens parses the dictionary locally; no Rime engine binary is included.

@@ -1,0 +1,64 @@
+{
+  "tag": "v0.9.0",
+  "assets": [
+    {
+      "name": "Lens-Translate-0.9.0-screen-arm64-v8a-debug.apk",
+      "bytes": 19097044,
+      "sha256": "a5bf72c3e7a5f6dfdc0d70aa23d6c46ed3e9c6416cbe47b33e239b1ab933cad9",
+      "parts": [
+        "Lens-Translate-0.9.0-screen-arm64-v8a-debug.apk"
+      ]
+    },
+    {
+      "name": "Lens-Translate-0.9.0-full-arm64-v8a-debug.apk",
+      "bytes": 21037565,
+      "sha256": "9c901d655169da1c8739cde112ac0c456a30a26bd431979e895e9d38deeb6fd7",
+      "parts": [
+        "Lens-Translate-0.9.0-full-arm64-v8a-debug.apk"
+      ]
+    },
+    {
+      "name": "Lens-Translate-0.9.0-screen-armeabi-v7a-debug.apk",
+      "bytes": 17027450,
+      "sha256": "c4d1046db96cfa5abb8e9698763f7754d158e841362f218f052fb2a519a4c6b9",
+      "parts": [
+        "Lens-Translate-0.9.0-screen-armeabi-v7a-debug.apk"
+      ]
+    },
+    {
+      "name": "Lens-Translate-0.9.0-full-armeabi-v7a-debug.apk",
+      "bytes": 18967971,
+      "sha256": "05d682c58e0efe7a08ba6c853e17c35f062d9272c76b618c4986dad8a0c9aa46",
+      "parts": [
+        "Lens-Translate-0.9.0-full-armeabi-v7a-debug.apk"
+      ]
+    },
+    {
+      "name": "Lens-Translate-0.1.0-x64.exe",
+      "bytes": 136960618,
+      "sha256": "62a847d45749b2a122703ce6c22dfba8188f7a84696e7d5900b8bfc501901059",
+      "parts": [
+        "Lens-Translate-0.1.0-x64.exe.part00",
+        "Lens-Translate-0.1.0-x64.exe.part01",
+        "Lens-Translate-0.1.0-x64.exe.part02"
+      ]
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "parts": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "NOTICE",
+      "bytes": 1059,
+      "sha256": "ff6855b92ae382db69b6534a472f45fc24320f92d8cb85711ece5355b6af7b57",
+      "parts": [
+        "NOTICE"
+      ]
+    }
+  ],
+  "bundleCommit": "7d6744a2a8c2ea4c6f98f03ad3dcbcc40e2909d3"
+}

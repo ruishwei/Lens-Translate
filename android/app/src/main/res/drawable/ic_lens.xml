@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/brand_background" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_lens_mark" android:top="4dp" android:bottom="4dp" android:left="4dp" android:right="4dp" />
+</layer-list>

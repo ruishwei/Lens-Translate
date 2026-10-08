@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>Lens Translate</title>
+  <rect width="256" height="256" rx="52" fill="#102e3b"/>
+  <g fill="none" stroke="#3dd9b6" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M87 48H48v39M169 48h39v39"/>
+    <path d="M48 169v39h39M169 208h39v-39"/>
+  </g>
+  <g fill="none" stroke="#f2faf8" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 168l37-81 37 81M104 141h48"/>
+  </g>
+</svg>

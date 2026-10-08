@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="64dp" android:height="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <!-- Two offset speech panes and opposing arrows: original text and its translation. -->
+    <path android:fillColor="#ABB4FF" android:pathData="M29,24 L49,24 Q55,24 55,30 L55,45 Q55,51 49,51 L44,51 L37,57 L37,51 L29,51 Q23,51 23,45 L23,30 Q23,24 29,24 Z" />
+    <path android:fillColor="#FBFCFF" android:pathData="M15,8 L35,8 Q41,8 41,14 L41,29 Q41,35 35,35 L28,35 L21,41 L21,35 L15,35 Q9,35 9,29 L9,14 Q9,8 15,8 Z" />
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#20213B" android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M18,21.5 L32,21.5 M28,17.5 L32,21.5 L28,25.5 M46,41 L32,41 M36,37 L32,41 L36,45" />
+</vector>

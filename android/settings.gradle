@@ -1,0 +1,9 @@
+pluginManagement { repositories { google(); mavenCentral(); gradlePluginPortal() } }
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories { google(); mavenCentral() }
+}
+rootProject.name = 'LensTranslate'
+include ':app'
+// Optional local QA module, not required to build the application.
+if (file('qa-host/build.gradle').exists()) include ':qa-host'

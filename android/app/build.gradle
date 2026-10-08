@@ -1,0 +1,60 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.rongji.screentranslate'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.rongji.screentranslate'
+        minSdk 26
+        targetSdk 35
+        versionCode 10
+        versionName '0.9.0'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildFeatures { buildConfig true }
+    flavorDimensions += 'edition'
+    productFlavors {
+        full {
+            dimension 'edition'
+            buildConfigField 'boolean', 'HAS_INPUT_TRANSLATION', 'true'
+            resValue 'string', 'app_name', '译镜'
+            resValue 'string', 'edition_label', '完整版 · 屏幕与输入翻译'
+        }
+        screen {
+            dimension 'edition'
+            applicationIdSuffix '.screen'
+            buildConfigField 'boolean', 'HAS_INPUT_TRANSLATION', 'false'
+            resValue 'string', 'app_name', '译镜·屏幕版'
+            resValue 'string', 'edition_label', '屏幕版 · 全屏与区域翻译'
+        }
+    }
+    // One architecture per APK. Keep ARMv7 for older phones and x86_64 for QA,
+    // without making every phone download four copies of the native engines.
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'arm64-v8a', 'armeabi-v7a', 'x86_64'
+            universalApk false
+        }
+    }
+    // Direct APK distribution: compress native engines for a smaller download.
+    // Android extracts them on install; model availability and functionality stay the same.
+    packaging { jniLibs { useLegacyPackaging true } }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes { release { minifyEnabled false } }
+}
+
+dependencies {
+    implementation 'androidx.exifinterface:exifinterface:1.4.1'
+    implementation 'com.google.mlkit:text-recognition:16.0.1'
+    implementation 'com.google.mlkit:text-recognition-chinese:16.0.1'
+    implementation 'com.google.mlkit:translate:17.0.3'
+    implementation 'com.google.mlkit:language-id:17.0.6'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="keyboard_label">译镜键盘</string>
+    <string name="input_assist_label">译镜输入辅助</string>
+    <string name="input_assist_description">使用其他键盘时提供左侧翻译按钮；点按直接翻译替换，长按预览。只有主动点击时读取文字，不自动发送，不记录按键，密码框不处理。此备选入口使用 DeepSeek 时会发送待翻译文字，部分输入框不支持。译镜键盘无需开启此服务，键盘翻译始终离线。</string>
+</resources>

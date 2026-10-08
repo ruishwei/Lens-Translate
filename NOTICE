@@ -1,0 +1,20 @@
+Lens Translate / 译镜
+Copyright 2026 Lens Translate contributors
+
+The original source code and documentation in this project are licensed under
+the Apache License, Version 2.0. See LICENSE.
+
+Third-party software and data retain their own licenses and notices:
+
+- Simplified Pinyin dictionary: rime/rime-pinyin-simp, derived from Android
+  Pinyin IME, Apache-2.0. See android/app/src/full/assets/pinyin/ for the
+  unmodified dictionary, LICENSE, AUTHORS and pinned source revision.
+- Stroke dictionary: rime/rime-stroke, LGPL-3.0. See
+  android/app/src/full/assets/stroke/ for the unmodified dictionary, LICENSE,
+  COPYING, AUTHORS and pinned source revision. This data is included only
+  in the full Android edition. It is not relicensed under Apache-2.0.
+- Other dependencies, SDKs and their bundled notices retain their respective
+  licenses. Google Translate attribution is retained in the application.
+
+The application is independently implemented. Screen Translate is referenced
+for interaction design; this project is not affiliated with its authors.
